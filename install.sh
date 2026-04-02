@@ -2,7 +2,7 @@ termux-setup-storage
 
 cd
 
-apt update && apt upgrade -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno swiftshader -y
+apt update && apt upgrade -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno -y
 
 apt install -y vulkan-loader-android -y
 
