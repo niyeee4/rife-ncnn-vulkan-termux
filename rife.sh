@@ -30,7 +30,7 @@ done
 [ ${#MODELS[@]} -eq 0 ] && echo "No models found" && exit 1
 echo -n "Select model: "; read MID; MODEL="${MODELS[$MID]}"
 
-echo -n "Interpolation (1/2/4/6/8): "; read MULTI; [ -z "$MULTI" ] && MULTI=2
+echo -n "Interpolation (2/4/6/8): "; read MULTI; [ -z "$MULTI" ] && MULTI=2
 DEST="/sdcard/rifevulkan/${NAME}_x${MULTI}.mov"
 FPS=$(ffprobe -v error -select_streams v:0 -show_entries stream=r_frame_rate -of default=noprint_wrappers=1:nokey=1 "$INPUT")
 NUM=${FPS%/*}; DEN=${FPS#*/}; NEWFPS="$((NUM*MULTI))/$DEN"
