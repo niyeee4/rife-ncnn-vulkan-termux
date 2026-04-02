@@ -9,7 +9,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt update -y
 apt upgrade -y -o Dpkg::Options::="--force-confold"
 
-apt install -y git libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno vulkan-loader
+apt install -y git termux-api ffmpeg libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno vulkan-loader
 
 git clone https://github.com/niyeee4/rife-ncnn-vulkan-termux
 
