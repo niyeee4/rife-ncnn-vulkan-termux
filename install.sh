@@ -1,3 +1,5 @@
+termux-setup-storage
+
 cd
 
 apt update && apt upgrade -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno swiftshader -y
