@@ -2,9 +2,9 @@ termux-setup-storage
 
 cd
 
-apt update && apt upgrade libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno
+pkg update && pkg upgrade libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno
 
-apt install vulkan-loader-android
+pkg install vulkan-loader-android
 
 cd
 
