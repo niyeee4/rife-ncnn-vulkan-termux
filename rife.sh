@@ -59,4 +59,4 @@ rm -f "$INPUT"
 rm -rf frames tmp out
 
 termux-media-scan "$DEST"
-echo -e "\e[31mDone: $DEST\e[0m"
+echo -e "\e[31mDone! Output file: $DEST\e[0m"
