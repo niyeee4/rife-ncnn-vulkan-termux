@@ -1,8 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
 termux-setup-storage
 
 cd
 
-apt update && apt upgrade && apt install -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno -y
+apt update -y && apt upgrade -y && apt install -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno -y
 
 apt install -y vulkan-loader-android -y
 
