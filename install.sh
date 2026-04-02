@@ -2,18 +2,20 @@
 
 termux-setup-storage
 
-cd
+cd ~
 
-apt update -y && apt upgrade -y && apt install -y libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno -y
+export DEBIAN_FRONTEND=noninteractive
 
-apt install -y vulkan-loader-android -y
+apt update -y
+apt upgrade -y -o Dpkg::Options::="--force-confold"
 
-cd
+apt install -y git libwebp mesa-vulkan-icd-swrast mesa-vulkan-icd-freedreno vulkan-loader
 
 git clone https://github.com/niyeee4/rife-ncnn-vulkan-termux
 
 cd rife-ncnn-vulkan-termux
 
+mkdir -p $PREFIX/bin
 cp rifevulkan $PREFIX/bin/
 
 chmod +x $PREFIX/bin/rifevulkan
