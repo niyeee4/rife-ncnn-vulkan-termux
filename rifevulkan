@@ -1,0 +1,7 @@
+cd
+
+cd rife-ncnn-vulkan-termux
+
+chmod +x rife.sh
+
+./rife.sh
