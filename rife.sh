@@ -27,7 +27,7 @@ echo -n "Interpolation (2/4/6/8): "
 read MULTI
 [ -z "$MULTI" ] && MULTI=2
 
-echo -n "CRF (5-25): "
+echo -n "Crf (5-25) lower = higher quality (larger file size): "
 read CRF
 [ -z "$CRF" ] && CRF=18
 
