@@ -8,5 +8,5 @@ curl -sL https://raw.githubusercontent.com/niyeee4/rife-ncnn-vulkan-termux/refs/
 ```
 Type `rifevulkan` in termux for video frame interpolation
 # Test
-- 8X interpolation:
+- 8X interpolation (191.808fps):
 - ![Demo](./191.gif)
