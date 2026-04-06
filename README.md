@@ -11,3 +11,7 @@ Type `rifevulkan` in termux for video frame interpolation
 8X interpolation:
 
 ![Demo](./191.gif)
+
+# Original RIFE Project
+- [RIFE](https://github.com/hzwer/ECCV2022-RIFE)
+- [RIFE-NCNN-VULKAN](https://github.com/nihui/rife-ncnn-vulkan)
