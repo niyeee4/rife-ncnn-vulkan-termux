@@ -6,4 +6,4 @@
 ```bash
 curl -sL https://raw.githubusercontent.com/niyeee4/rife-ncnn-vulkan-termux/refs/heads/master/install.sh | bash
 ```
-Type `rifevulkan` in termux
+Type `rifevulkan` in termux for video frame interpolation
