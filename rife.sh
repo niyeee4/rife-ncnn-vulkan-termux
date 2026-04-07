@@ -23,7 +23,7 @@ esac
 INPUT="${NAME}.${EXT}"
 mv "$TMPFILE" "$INPUT"
 
-echo -n "Interpolation (2/4/6/8): "
+echo -n "Interpolation (multi 2/4/6/8): "
 read MULTI
 [ -z "$MULTI" ] && MULTI=2
 
