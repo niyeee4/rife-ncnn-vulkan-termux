@@ -15,6 +15,8 @@ git clone https://github.com/niyeee4/rife-ncnn-vulkan-termux
 
 cd rife-ncnn-vulkan-termux
 
+rm -f 191.mp4 191.gif
+
 mkdir -p $PREFIX/bin
 cp rifevulkan $PREFIX/bin/
 
