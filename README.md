@@ -1,5 +1,5 @@
 # ⚠️ Note
-- `Stuck at 'Pick video from system…'? Ctrl+C → launch Termux API → back to Termux → run rifevulkan`
+- `Stuck at 'Pick video from system…'? Ctrl+C > launch Termux API > back to Termux > run rifevulkan`
 # 📋 Requirements
 - [Termux](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_arm64-v8a.apk)
 - [TermuxAPI](https://github.com/termux/termux-api/releases/download/v0.53.0/termux-api-app_v0.53.0+github.debug.apk)
