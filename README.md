@@ -1,4 +1,4 @@
-# RIFE NCNN VULKAN VIDEO
+# RIFE-ncnn-vulkan for video interpolation
 
 # ⚠️ Note
 - `Stuck at 'Pick video from system…'? Ctrl+C > launch Termux API > back to Termux > run rifevulkan`
