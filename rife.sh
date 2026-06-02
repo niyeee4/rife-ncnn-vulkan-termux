@@ -1,7 +1,7 @@
 #!/bin/bash
 export LD_LIBRARY_PATH=/system/lib64:$LD_LIBRARY_PATH
 
-echo "Pick video from system..."
+echo "Pick video from system... (Ctrl+C to cancel)"
 TMPFILE="__input.tmp"
 rm -f "$TMPFILE"
 termux-storage-get "$TMPFILE" &
