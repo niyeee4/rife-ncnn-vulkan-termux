@@ -22,4 +22,24 @@ cp rifevulkan $PREFIX/bin/
 
 chmod +x $PREFIX/bin/rifevulkan
 
+echo
+while true; do
+printf "Install custom font? (y/n): "
+read -r choice < /dev/tty
+
+case "$choice" in
+    [Yy])
+        mkdir -p "$HOME/.termux"
+        cp "$HOME/rife-ncnn-vulkan-termux/font.ttf" "$HOME/.termux/font.ttf"
+        termux-reload-settings >/dev/null 2>&1
+        echo "Font installed."
+        break
+        ;;
+    [Nn])
+        break
+        ;;
+esac
+
+done
+
 echo -e "type '\e[31mrifevulkan\e[0m' for video frame interpolation"
