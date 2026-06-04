@@ -41,5 +41,6 @@ case "$choice" in
 esac
 
 done
-
+yes | termux-setup-storage
+clear
 echo -e "type '\e[31mrifevulkan\e[0m' for video frame interpolation"
