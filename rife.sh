@@ -130,7 +130,7 @@ rm -rf frames tmp out
 mkdir -p frames tmp out
 
 echo "Extracting frames..."
-ffmpeg -i "$INPUT" -vsync 0 frames/%08d.png
+ffmpeg -i "$INPUT" -fps_mode passthrough frames/%08d.png
 cp -r frames/* tmp/
 
 STEP=1
